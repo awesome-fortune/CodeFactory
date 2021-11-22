@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.onboarding.screens.SecondScreenFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/OnboardingImage"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/second_onboarding_screen_image"
+        android:src="@drawable/cool_kids_staying_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitleSecondScreen"
+        style="@style/Heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/second_onboarding_screen_title"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/tvBodyTextSecondScreen"
+        style="@style/ParagraphMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/onboarding_body_text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/tvTitleSecondScreen"
+        app:layout_constraintStart_toStartOf="@+id/tvTitleSecondScreen"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleSecondScreen" />
+</androidx.constraintlayout.widget.ConstraintLayout>

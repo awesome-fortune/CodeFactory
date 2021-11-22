@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.onboarding.screens.ThirdScreenFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/OnboardingImage"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/third_onboarding_screen_image"
+        android:src="@drawable/cool_kids_high_tech"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitleThirdScreen"
+        style="@style/Heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/third_onboarding_screen_title"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/imageView3"
+        app:layout_constraintStart_toStartOf="@id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/tvBodyTextThirdScreen"
+        style="@style/ParagraphMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/onboarding_body_text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/tvTitleThirdScreen"
+        app:layout_constraintStart_toStartOf="@id/tvTitleThirdScreen"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleThirdScreen"
+        app:layout_wrapBehaviorInParent="horizontal_only" />
+</androidx.constraintlayout.widget.ConstraintLayout>

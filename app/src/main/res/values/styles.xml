@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Display1">
+        <item name="android:textSize">56sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">59sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="Display2">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">46sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="Display3">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">42sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="Heading1">
+        <item name="android:textSize">24sp</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">32sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="Heading2">
+        <item name="android:textSize">20sp</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">26sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="ParagraphLarge">
+        <item name="android:textSize">16sp</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">26sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="ParagraphMedium">
+        <item name="android:textSize">14sp</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">21sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="ParagraphSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="ButtonLarge">
+        <item name="android:textSize">18sp</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">22sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="ButtonMedium">
+        <item name="android:textSize">16sp</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="ButtonSmall">
+        <item name="android:textSize">14sp</item>
+        <item name="fontWeight">500</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/rubik</item>
+    </style>
+
+    <style name="OnboardingImage">
+        <item name="android:layout_width">375dp</item>
+        <item name="android:layout_height">264dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+</resources>
